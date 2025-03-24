@@ -1,0 +1,20 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="CalculatorExer.feature" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="CalculatorCustom.cs" />
+    <Element value="StepDefinitionCalculatorExer.cs" />
+    <Element value="CalculatorRepository.cs" />
+    <Element value="CalculatorExer.feature" />
+    <Element value="CalculatorMinus.rxtst" />
+    <Element value="app.config" />
+    <Element value="AssemblyInfo.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

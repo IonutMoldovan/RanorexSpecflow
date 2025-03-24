@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="..\packages\SpecFlow.NUnit.3.9.74\build\SpecFlow.NUnit.props" Condition="Exists('..\packages\SpecFlow.NUnit.3.9.74\build\SpecFlow.NUnit.props')" />
+  <Import Project="..\packages\NUnit.3.13.1\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.13.1\build\NUnit.props')" />
+  <Import Project="..\packages\SpecFlow.Tools.MsBuild.Generation.3.9.74\build\SpecFlow.Tools.MsBuild.Generation.props" Condition="Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.3.9.74\build\SpecFlow.Tools.MsBuild.Generation.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{0745F779-7CBC-4197-961A-E2579326DF20}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CalculatorMinus</RootNamespace>
+    <AssemblyName>CalculatorMinus</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>7148f54d-6975-4ebe-b521-1e2f9827ce71</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BoDi">
+      <HintPath>..\packages\BoDi.1.5.0\lib\net45\BoDi.dll</HintPath>
+    </Reference>
+    <Reference Include="Gherkin">
+      <HintPath>..\packages\Gherkin.19.0.3\lib\net45\Gherkin.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.13.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SpecFlow.Internal.Json">
+      <HintPath>..\packages\SpecFlow.Internal.Json.1.0.8\lib\net45\SpecFlow.Internal.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow">
+      <HintPath>..\packages\SpecFlow.3.9.74\lib\net461\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow.NUnit.SpecFlowPlugin">
+      <HintPath>..\packages\SpecFlow.NUnit.3.9.74\lib\net461\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>7325b5e6-1d86-45e9-8ba3-930c54680041</id>
+    </Compile>
+    <Compile Include="CalculatorCustom.cs">
+      <id>9441017d-0669-49d4-a2d9-c4be5d8c4aa5</id>
+    </Compile>
+    <Compile Include="CalculatorExer.feature.cs">
+      <id>e2fb3b46-b0db-4ccd-96f5-dae670bf55a7</id>
+      <BoundTo>0b9310b2-f45c-406b-94fa-f27cd877961f</BoundTo>
+      <DependentUpon>C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\CalculatorExer.feature</DependentUpon>
+    </Compile>
+    <Compile Include="CalculatorMinusRepository.cs">
+      <BoundTo>7148f54d-6975-4ebe-b521-1e2f9827ce71</BoundTo>
+      <DependentUpon>CalculatorMinusRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e698ff00-f1a2-403e-9c05-f4e17e679866</id>
+    </Compile>
+    <Compile Include="CalculatorRepository.cs">
+      <BoundTo>1d67bee3-956e-488e-b06f-bb183e69be2f</BoundTo>
+      <DependentUpon>CalculatorRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>90139248-7720-44bd-a080-7af05dd41aa6</id>
+    </Compile>
+    <Compile Include="CloseCalcualtorAppRecording.Repository.cs">
+      <BoundTo>db550dcc-9686-4cce-b35a-8314375fc751</BoundTo>
+      <DependentUpon>CloseCalcualtorAppRecording.rxrec</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ce109341-e9f7-42c2-8e0b-7a11f7ba671a</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>cabb410e-cfa2-45fa-8b8f-ccf4bffd5402</id>
+    </Compile>
+    <Compile Include="CloseCalcualtorAppRecording.cs">
+      <BoundTo>db550dcc-9686-4cce-b35a-8314375fc751</BoundTo>
+      <DependentUpon>CloseCalcualtorAppRecording.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d2866b90-61bf-4b92-b9e6-6f0cc3f595d9</id>
+    </Compile>
+    <Compile Include="CloseCalcualtorAppRecording.UserCode.cs">
+      <BoundTo>db550dcc-9686-4cce-b35a-8314375fc751</BoundTo>
+      <DependentUpon>CloseCalcualtorAppRecording.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>be69de69-6102-474c-8c7a-62f6cc147275</id>
+    </Compile>
+    <Compile Include="StepDefinitionCalculatorExer.cs">
+      <id>23e07c78-44d4-42d5-9e40-b1184f2c4f30</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>4b8d1286-3fab-4df6-8410-03be00baa2ee</id>
+    </None>
+    <None Include="apps\calc.exe">
+      <id>2bc1fbcb-3fe5-477f-8904-4881d5c3b1d5</id>
+    </None>
+    <None Include="CalculatorExer.feature">
+      <id>0b9310b2-f45c-406b-94fa-f27cd877961f</id>
+    </None>
+    <None Include="CalculatorMinusRepository.rximg">
+      <BoundTo>7148f54d-6975-4ebe-b521-1e2f9827ce71</BoundTo>
+      <DependentUpon>CalculatorMinusRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>d48fa2ba-0e28-49cc-bf1d-aa2fe1a05d06</id>
+    </None>
+    <None Include="CalculatorMinusRepository.rxrep">
+      <id>7148f54d-6975-4ebe-b521-1e2f9827ce71</id>
+      <repoid>115cd7e8-7c53-4bed-96b6-c5ceeb8d61ed</repoid>
+      <reporootid>de4476c1-bd8b-49fe-b029-e0dc6e4af6f6</reporootid>
+    </None>
+    <None Include="CalculatorRepository.rximg">
+      <BoundTo>1d67bee3-956e-488e-b06f-bb183e69be2f</BoundTo>
+      <DependentUpon>CalculatorRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>af18f755-9aa8-4cf9-ab4f-76714c3f6037</id>
+    </None>
+    <None Include="CalculatorRepository.rxrep">
+      <id>1d67bee3-956e-488e-b06f-bb183e69be2f</id>
+      <repoid>998c94e0-9308-403b-86b7-450db9b26664</repoid>
+      <reporootid>2c677167-62c4-41f9-b26c-48f694d3be10</reporootid>
+    </None>
+    <None Include="CloseCalcualtorAppRecording.Repository.rximg">
+      <BoundTo>db550dcc-9686-4cce-b35a-8314375fc751</BoundTo>
+      <DependentUpon>CloseCalcualtorAppRecording.rxrec</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>c8091b66-395f-4bf7-a5ef-24e5a1d14544</id>
+    </None>
+    <None Include="packages.config">
+      <id>bd6b5022-78bd-4250-bf63-90ecb11eb9fb</id>
+    </None>
+    <None Include="CloseCalcualtorAppRecording.rxrec">
+      <id>db550dcc-9686-4cce-b35a-8314375fc751</id>
+      <recordtableid>e23947fa-ed89-4705-a26a-e52e1600b0df</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CalculatorMinus.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>4b4a28bf-2355-4312-907b-cbfb6a9cc295</id>
+    </Content>
+    <Content Include="CalculatorMinus.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>bdadd76b-0324-4a0a-9b93-8223f2e49d27</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="apps">
+      <id>3825f225-c174-4182-8faf-7a14e15a2729</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+  <Import Project="..\packages\SpecFlow.3.9.74\build\SpecFlow.targets" Condition="Exists('..\packages\SpecFlow.3.9.74\build\SpecFlow.targets')" />
+  <Import Project="..\packages\SpecFlow.Tools.MsBuild.Generation.3.9.74\build\SpecFlow.Tools.MsBuild.Generation.targets" Condition="Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.3.9.74\build\SpecFlow.Tools.MsBuild.Generation.targets')" />
+  <Import Project="..\packages\SpecFlow.NUnit.3.9.74\build\SpecFlow.NUnit.targets" Condition="Exists('..\packages\SpecFlow.NUnit.3.9.74\build\SpecFlow.NUnit.targets')" />
+</Project>

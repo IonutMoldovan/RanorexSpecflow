@@ -1,0 +1,57 @@
+﻿<repository
+id="115cd7e8-7c53-4bed-96b6-c5ceeb8d61ed"
+name="CalculatorMinusRepository">
+	<codegen
+	classname="CalculatorMinusRepository"
+	namespace="CalculatorMinus">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="de4476c1-bd8b-49fe-b029-e0dc6e4af6f6"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="6d956e89-a807-46b2-be46-cb4d8abd2b4d"
+		isrooted="True"
+		name="Calculator"
+		refpath="/winapp[@packagename='Microsoft.WindowsCalculator']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="6cc0f988-6fd9-4bfd-81ed-5f9b2e904a71"
+			name="Close"
+			refimgid="d09280d9-c8d7-4fb3-9e36-5c9271425633"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/titlebar/button[@automationid='Close']"
+			robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='Close']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='Close']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.WindowsCalculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIFSURBVDhPdZBJTxRRFIX5C83g39BEowkRBUGa
+doh/wqltpu6u6q55rno19Ihi4z8xLljoQuOQKEEjRqMxro0TII1wzCutl5gni5ucxT3fuecODEjr
+oHPMWUWydAdRdwVhpwfSvo2gtQy/uQyvcQtuchNOvAQ76uKIcS/1pJOJuLuCqNM70GSFHZh/xyBt
+HhC2e7BIC5c+7ePixz2cf/8LM293Mf26j8n1nxh/voWTTzYxL2rQ/BYPoMmaF+PChz0U3u0iv9HH
+1MsdTLzYxtjTTYw+/I7j97+iJKhQvAYPoCerToz8mz6mXu1gYm0bp55tYfTRD5x48A1HV7/g8N3P
+KFYUSE7CA2hXK+pC9RpQ3ASyE0OyI9StEDUzhGgQCHoAyYpQsyIeQM30QY/XNtKhPTMtOwnT1Cya
+IQ8wSAd60GaLtGem63bMtGAQVHXCA/SgBc1vskXaM9M0MdMVPUBZ83mA6jWhuP9PrRoEuXMJcoUY
+i6qPBcXjAbKbHJha1gLkChEGZ0LMyy7mJIcH0ET6IJaqE6YXVQ+D+QBD0x5mJQelus0DRDOC8E+q
+zzRNHTrrYnjSRqlmoShaPID2pA/KTLRnpmfrNobPmBgZ11AUTVwXDB5Q0YL0QZlpTnaZvlGzMHJa
+waExCdeqBq5WdB5Aey4obnpu1pMa/ySazHilrOFyWWWA31JCn7IS7xKVAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

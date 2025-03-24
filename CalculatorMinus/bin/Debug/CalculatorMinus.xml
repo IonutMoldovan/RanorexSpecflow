@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculatorMinus</name>
+    </assembly>
+    <members>
+        <member name="T:CalculatorMinus.CalculatorRepository">
+            <summary>
+            The class representing the CalculatorRepository element repository.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CalculatorRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the CalculatorRepository element repository.
+            </summary>
+        </member>
+        <member name="M:CalculatorMinus.CalculatorRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CalculatorRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:CalculatorMinus.CalculatorMinusRepository">
+            <summary>
+            The class representing the CalculatorMinusRepository element repository.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CalculatorMinusRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the CalculatorMinusRepository element repository.
+            </summary>
+        </member>
+        <member name="M:CalculatorMinus.CalculatorMinusRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CalculatorMinusRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CalculatorMinusRepository.Calculator">
+            <summary>
+            The Calculator folder.
+            </summary>
+        </member>
+        <member name="T:CalculatorMinus.CalculatorMinusRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:CalculatorMinus.CalculatorMinusRepositoryFolders.CalculatorAppFolder">
+            <summary>
+            The CalculatorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CalculatorMinus.CalculatorMinusRepositoryFolders.CalculatorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Calculator  folder.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CalculatorMinusRepositoryFolders.CalculatorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CalculatorMinusRepositoryFolders.CalculatorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CalculatorMinusRepositoryFolders.CalculatorAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CalculatorMinusRepositoryFolders.CalculatorAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:CalculatorMinus.CalculatorRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:CalculatorMinus.CloseCalcualtorAppRecordingRepository">
+            <summary>
+            The class representing the CloseCalcualtorAppRecordingRepository element repository.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CloseCalcualtorAppRecordingRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the CloseCalcualtorAppRecordingRepository element repository.
+            </summary>
+        </member>
+        <member name="M:CalculatorMinus.CloseCalcualtorAppRecordingRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CloseCalcualtorAppRecordingRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CloseCalcualtorAppRecordingRepository.Calculator">
+            <summary>
+            The Calculator folder.
+            </summary>
+        </member>
+        <member name="T:CalculatorMinus.CloseCalcualtorAppRecordingRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:CalculatorMinus.CloseCalcualtorAppRecordingRepositoryFolders.CalculatorAppFolder">
+            <summary>
+            The CalculatorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:CalculatorMinus.CloseCalcualtorAppRecordingRepositoryFolders.CalculatorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Calculator  folder.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CloseCalcualtorAppRecordingRepositoryFolders.CalculatorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CloseCalcualtorAppRecordingRepositoryFolders.CalculatorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CloseCalcualtorAppRecordingRepositoryFolders.CalculatorAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CloseCalcualtorAppRecordingRepositoryFolders.CalculatorAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:CalculatorMinus.CloseCalcualtorAppRecording">
+             <summary>
+            The CloseCalcualtorAppRecording recording.
+             </summary>
+        </member>
+        <member name="F:CalculatorMinus.CloseCalcualtorAppRecording.repo">
+            <summary>
+            Holds an instance of the CloseCalcualtorAppRecordingRepository repository.
+            </summary>
+        </member>
+        <member name="M:CalculatorMinus.CloseCalcualtorAppRecording.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:CalculatorMinus.CloseCalcualtorAppRecording.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:CalculatorMinus.CloseCalcualtorAppRecording.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CalculatorMinus.CloseCalcualtorAppRecording.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CalculatorMinus.CloseCalcualtorAppRecording.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CalculatorMinus.CloseCalcualtorAppRecording.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+    </members>
+</doc>

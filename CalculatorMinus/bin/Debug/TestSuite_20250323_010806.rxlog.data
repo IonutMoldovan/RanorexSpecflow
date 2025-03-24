@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="47.86s"
+		durationms="47863"
+		type="root"
+		rid="70c88f9103bee4c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="40772"
+		rxversion="12.1.3.0"
+		host="LAPTOP-V1F5PR61"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="ro-RO"
+		dtnlanguage="ro-RO"
+		screenresolution="1920x1080"
+		timestamp="23.03.2025 01:08:06"
+		timestampiso="2025-03-22T23:08:06"
+		endtime="23.03.2025 01:08:54"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.367"
+			timeRelativeToTestModuleStartTime="00:00.367"
+			timeWallClock="01:08:06"
+			time="00:00.367"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Close' at 39;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='Close']"
+				itempath="?/?/button[@automationid='Close']"
+				fullname="CloseCalcualtorAppRecordingRepository.Calculator.Close"
+				id="6cc0f9886fd94bfd81ed5f9b2e904a71"
+				timeout="60000"
+				codefile="C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\CloseCalcualtorAppRecording.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.011"
+			timeRelativeToTestModuleStartTime="00:03.011"
+			timeWallClock="01:08:09"
+			time="00:03.011"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Close' at 39;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='Close']"
+				itempath="?/?/button[@automationid='Close']"
+				fullname="CloseCalcualtorAppRecordingRepository.Calculator.Close"
+				id="6cc0f9886fd94bfd81ed5f9b2e904a71"
+				timeout="60000"
+				codefile="C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\CloseCalcualtorAppRecording.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.045"
+			timeRelativeToTestModuleStartTime="00:33.045"
+			timeWallClock="01:08:39"
+			time="00:33.045"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Close' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\CloseCalcualtorAppRecording.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

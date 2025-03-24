@@ -1,0 +1,20 @@
+﻿<repository
+id="998c94e0-9308-403b-86b7-450db9b26664"
+name="CalculatorRepository">
+	<codegen
+	classname="CalculatorRepository"
+	namespace="CalculatorMinus">
+	</codegen>
+	<rootfolder
+	capname="host"
+	id="2c677167-62c4-41f9-b26c-48f694d3be10"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="False">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

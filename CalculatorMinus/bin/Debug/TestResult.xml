@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="4" result="Failed" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.15.2.0" clr-version="4.0.30319.42000" start-time="2025-03-23 20:49:18Z" end-time="2025-03-23 20:50:02Z" duration="44.045186">
+  <command-line><![CDATA["C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\bin\Debug\NUnit.ConsoleRunner.3.15.2\nunit3-console.exe" "C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\bin\Debug\CalculatorMinus.dll"]]></command-line>
+  <test-suite type="Assembly" id="1-1007" name="CalculatorMinus.dll" fullname="C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\bin\Debug\CalculatorMinus.dll" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2025-03-23T20:49:19.1035021Z" end-time="2025-03-23T20:50:02.3995623Z" duration="43.295138" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.13.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.26100.0" platform="Win32NT" cwd="C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\bin\Debug" machine-name="LAPTOP-V1F5PR61" user="40772" user-domain="LAPTOP-V1F5PR61" culture="ro-RO" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.8" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.8" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="ApartmentState" value="STA" />
+      <property name="_PID" value="28336" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="CalculatorMinus_NUnitAssemblyHooks" classname="CalculatorMinus_NUnitAssemblyHooks" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2025-03-23T20:49:19.1140212Z" end-time="2025-03-23T20:50:02.3938736Z" duration="43.277827" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <output><![CDATA[-> Loading plugin C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\bin\Debug\CalculatorMinus.dll
+-> Using default config
+]]></output>
+      <test-suite type="TestSuite" id="1-1008" name="CalculatorMinus" fullname="CalculatorMinus" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2025-03-23T20:49:19.5213168Z" end-time="2025-03-23T20:50:02.3656907Z" duration="42.842640" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1-1001" name="WindowsCalculatorOperationsFeature" fullname="CalculatorMinus.WindowsCalculatorOperationsFeature" classname="CalculatorMinus.WindowsCalculatorOperationsFeature" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2025-03-23T20:49:19.5223181Z" end-time="2025-03-23T20:50:02.3414033Z" duration="42.817175" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="Description" value="Windows Calculator Operations" />
+            <property name="Category" value="mytag" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1006" name="PerformBasicArithmeticOperations" fullname="CalculatorMinus.WindowsCalculatorOperationsFeature.PerformBasicArithmeticOperations" classname="CalculatorMinus.WindowsCalculatorOperationsFeature" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2025-03-23T20:49:19.5288516Z" end-time="2025-03-23T20:50:02.2114690Z" duration="42.681870" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="Perform basic arithmetic operations" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1002" name="PerformBasicArithmeticOperations(&quot;50&quot;,&quot;70&quot;,&quot;add&quot;,&quot;120&quot;,null)" fullname="CalculatorMinus.WindowsCalculatorOperationsFeature.PerformBasicArithmeticOperations(&quot;50&quot;,&quot;70&quot;,&quot;add&quot;,&quot;120&quot;,null)" methodname="PerformBasicArithmeticOperations" classname="CalculatorMinus.WindowsCalculatorOperationsFeature" runstate="Runnable" seed="94104881" result="Passed" start-time="2025-03-23T20:49:19.5308512Z" end-time="2025-03-23T20:49:41.0866549Z" duration="21.556285" asserts="0">
+              <output><![CDATA[Given I open the Windows calculator app
+calc has been open.
+-> done: StepDefinitionCalculatorExer.WhenIOpenWindowsCalculatorApp() (8,9s)
+Given I have entered 50 into the calculator
+Clicked button: 5
+Clicked button: 0
+-> done: StepDefinitionCalculatorExer.GivenIHaveEnteredNumberIntoTheCalculator(50) (7,2s)
+When I press add
+Clicked operator button: add
+-> done: StepDefinitionCalculatorExer.WhenIPressAdd("add") (0,9s)
+Given I have entered 70 into the calculator
+Clicked button: 7
+Clicked button: 0
+-> done: StepDefinitionCalculatorExer.GivenIHaveEnteredNumberIntoTheCalculator(70) (2,5s)
+When I hit the equals button
+Clicked '=' button.
+-> done: StepDefinitionCalculatorExer.WhenIhitTheEqualsButton() (1,0s)
+Then the result should be 120 on the screen
+Result validation passed. Expected: 120, Actual: 120
+-> done: StepDefinitionCalculatorExer.ThenTheResultShouldBe(120) (0,1s)
+Then I close the Windows calculator app
+[2025/03/23 22:49:40.427][Debug  ][Logger]: Console logger starting.
+[2025/03/23 22:49:40.472][Info   ][Mouse]: Mouse Left Click item 'Calculator.Close' at 39;24.
+Windows Calculator app has been closed
+-> done: StepDefinitionCalculatorExer.ThenICloseWindowsCalculatorApp() (0,7s)
+]]></output>
+            </test-case>
+            <test-case id="1-1003" name="PerformBasicArithmeticOperations(&quot;100&quot;,&quot;30&quot;,&quot;subtract&quot;,&quot;70&quot;,null)" fullname="CalculatorMinus.WindowsCalculatorOperationsFeature.PerformBasicArithmeticOperations(&quot;100&quot;,&quot;30&quot;,&quot;subtract&quot;,&quot;70&quot;,null)" methodname="PerformBasicArithmeticOperations" classname="CalculatorMinus.WindowsCalculatorOperationsFeature" runstate="Runnable" seed="1995176734" result="Failed" label="Error" start-time="2025-03-23T20:49:41.0995168Z" end-time="2025-03-23T20:49:41.8509881Z" duration="0.750987" asserts="0">
+              <failure>
+                <message><![CDATA[Ranorex.ElementNotFoundException : No element found for path '/form[@title~'^Calculator$']//button[@automationid='num1Button']' at step 'form[@title~'^Calculator$']' after 1 attempts.]]></message>
+                <stack-trace><![CDATA[   at Ranorex.Core.Element.FindSingle(RxPath path)
+   at Ranorex.Adapter.FindSingle[T](RxPath path)
+   at CalculatorMinus.CalculatorRepository.Button(String automationId) in C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\CalculatorCustom.cs:line 18
+   at CalculatorMinus.StepDefinitionCalculatorExer.GivenIHaveEnteredNumberIntoTheCalculator(Int32 number) in C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\StepDefinitionCalculatorExer.cs:line 47
+   at lambda_method(Closure , IContextManager , Int32 )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 68
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 567
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 480
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 203
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 59
+   at CalculatorMinus.WindowsCalculatorOperationsFeature.ScenarioCleanup()
+   at CalculatorMinus.WindowsCalculatorOperationsFeature.PerformBasicArithmeticOperations(String firstNumber, String secondNumber, String operation, String expectedResult, String[] exampleTags) in C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\CalculatorExer.feature:line 15]]></stack-trace>
+              </failure>
+              <output><![CDATA[Given I open the Windows calculator app
+calc has been open.
+-> done: StepDefinitionCalculatorExer.WhenIOpenWindowsCalculatorApp() (0,0s)
+Given I have entered 100 into the calculator
+Error entering number '100': No element found for path '/form[@title~'^Calculator$']//button[@automationid='num1Button']' at step 'form[@title~'^Calculator$']' after 1 attempts.
+-> error: No element found for path '/form[@title~'^Calculator$']//button[@automationid='num1Button']' at step 'form[@title~'^Calculator$']' after 1 attempts. (0,7s)
+When I press subtract
+-> skipped because of previous errors
+Given I have entered 30 into the calculator
+-> skipped because of previous errors
+When I hit the equals button
+-> skipped because of previous errors
+Then the result should be 70 on the screen
+-> skipped because of previous errors
+Then I close the Windows calculator app
+-> skipped because of previous errors
+]]></output>
+            </test-case>
+            <test-case id="1-1004" name="PerformBasicArithmeticOperations(&quot;15&quot;,&quot;10&quot;,&quot;multiply&quot;,&quot;150&quot;,null)" fullname="CalculatorMinus.WindowsCalculatorOperationsFeature.PerformBasicArithmeticOperations(&quot;15&quot;,&quot;10&quot;,&quot;multiply&quot;,&quot;150&quot;,null)" methodname="PerformBasicArithmeticOperations" classname="CalculatorMinus.WindowsCalculatorOperationsFeature" runstate="Runnable" seed="1697327483" result="Passed" start-time="2025-03-23T20:49:41.8529877Z" end-time="2025-03-23T20:49:51.0505132Z" duration="9.197417" asserts="0">
+              <output><![CDATA[Given I open the Windows calculator app
+calc has been open.
+-> done: StepDefinitionCalculatorExer.WhenIOpenWindowsCalculatorApp() (0,0s)
+Given I have entered 15 into the calculator
+Clicked button: 1
+Clicked button: 5
+-> done: StepDefinitionCalculatorExer.GivenIHaveEnteredNumberIntoTheCalculator(15) (3,8s)
+When I press multiply
+Clicked operator button: multiply
+-> done: StepDefinitionCalculatorExer.WhenIPressAdd("multiply") (1,1s)
+Given I have entered 10 into the calculator
+Clicked button: 1
+Clicked button: 0
+-> done: StepDefinitionCalculatorExer.GivenIHaveEnteredNumberIntoTheCalculator(10) (2,5s)
+When I hit the equals button
+Clicked '=' button.
+-> done: StepDefinitionCalculatorExer.WhenIhitTheEqualsButton() (1,0s)
+Then the result should be 150 on the screen
+Result validation passed. Expected: 150, Actual: 150
+-> done: StepDefinitionCalculatorExer.ThenTheResultShouldBe(150) (0,2s)
+Then I close the Windows calculator app
+[2025/03/23 22:49:50.378][Info   ][Mouse]: Mouse Left Click item 'Calculator.Close' at 39;24.
+Windows Calculator app has been closed
+-> done: StepDefinitionCalculatorExer.ThenICloseWindowsCalculatorApp() (0,7s)
+]]></output>
+            </test-case>
+            <test-case id="1-1005" name="PerformBasicArithmeticOperations(&quot;100&quot;,&quot;25&quot;,&quot;divide&quot;,&quot;4&quot;,null)" fullname="CalculatorMinus.WindowsCalculatorOperationsFeature.PerformBasicArithmeticOperations(&quot;100&quot;,&quot;25&quot;,&quot;divide&quot;,&quot;4&quot;,null)" methodname="PerformBasicArithmeticOperations" classname="CalculatorMinus.WindowsCalculatorOperationsFeature" runstate="Runnable" seed="352502259" result="Passed" start-time="2025-03-23T20:49:51.0854250Z" end-time="2025-03-23T20:50:02.1800747Z" duration="11.094189" asserts="0">
+              <output><![CDATA[Given I open the Windows calculator app
+calc has been open.
+-> done: StepDefinitionCalculatorExer.WhenIOpenWindowsCalculatorApp() (0,0s)
+Given I have entered 100 into the calculator
+Clicked button: 1
+Clicked button: 0
+Clicked button: 0
+-> done: StepDefinitionCalculatorExer.GivenIHaveEnteredNumberIntoTheCalculator(100) (5,2s)
+When I press divide
+Clicked operator button: divide
+-> done: StepDefinitionCalculatorExer.WhenIPressAdd("divide") (1,1s)
+Given I have entered 25 into the calculator
+Clicked button: 2
+Clicked button: 5
+-> done: StepDefinitionCalculatorExer.GivenIHaveEnteredNumberIntoTheCalculator(25) (2,6s)
+When I hit the equals button
+Clicked '=' button.
+-> done: StepDefinitionCalculatorExer.WhenIhitTheEqualsButton() (0,9s)
+Then the result should be 4 on the screen
+Result validation passed. Expected: 4, Actual: 4
+-> done: StepDefinitionCalculatorExer.ThenTheResultShouldBe(4) (0,2s)
+Then I close the Windows calculator app
+[2025/03/23 22:50:01.156][Info   ][Mouse]: Mouse Left Click item 'Calculator.Close' at 39;24.
+Windows Calculator app has been closed
+-> done: StepDefinitionCalculatorExer.ThenICloseWindowsCalculatorApp() (1,0s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
