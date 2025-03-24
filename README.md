@@ -7,3 +7,6 @@ in command prompt use this command to run but replace the path with youre path
  NUnit.ConsoleRunner.3.15.2\nunit3-console.exe "C:\Users\40772\Documents\Ranorex\RanorexStudio Projects\CalculatorMinus\CalculatorMinus\bin\Debug\CalculatorMinus.dll"
 
  after you run the automated test you will get a TestResult.xml , this result can be converted online into a html report.
+
+
+ see the stepDefinitions implementation here : https://github.com/IonutMoldovan/RanorexSpecflow/blob/master/CalculatorMinus/StepDefinitionCalculatorExer.cs
