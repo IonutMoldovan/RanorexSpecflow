@@ -8,4 +8,5 @@ in command prompt use this command to run but replace the path with youre path N
 after you run the automated test you will get a TestResult.xml , this result can be converted online into a html report.
 
 see the stepDefinitions implementation here : https://github.com/IonutMoldovan/RanorexSpecflow/blob/master/CalculatorMinus/StepDefinitionCalculatorExer.cs
+feature file here :  https://github.com/IonutMoldovan/RanorexSpecflow/blob/master/CalculatorMinus/CalculatorExer.feature
 
